@@ -92,6 +92,12 @@ Retorna:
   <img alt="" src=".github/image9.png">
 </p>
 
+- **`POST /tasks`**: Se não tiver criado um usuário e tentar criar uma tarefa:
+
+<p align="center">
+  <img alt="" src=".github/image10.png">
+</p>
+
 ## 🤔 Como contribuir
 
 - Faça um fork desse repositório;
