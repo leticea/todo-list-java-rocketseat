@@ -28,9 +28,8 @@ Evento do Curso de Java na plataforma da [Rocketseat](https://www.rocketseat.com
 ## 🚀 Como Rodar
 
 - Clone o projeto.
-- Entre na pasta do projeto e rode 'npm install' (use 'yarn install' se for essa a sua configuração).
-- Entre no arquivo TodolistApplication.java e clique em 'Run' (para rodar o spring boot).
--
+- Entre no arquivo 'TodolistApplication.java' e clique em 'Run' (para rodar o spring boot).
+- Escolha uma opção de ferramenta para fazer as requisições REST: [API Dog](https://apidog.com/download/), [Insomnia](https://insomnia.rest/download), [Postman](https://www.postman.com/downloads/)
 
 ## 👩🏿‍💻 Rotas
 
