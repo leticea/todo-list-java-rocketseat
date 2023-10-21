@@ -98,6 +98,17 @@ Retorna:
   <img alt="" src=".github/image10.png">
 </p>
 
+- **`PUT /tasks/{idTask}`**: Se tentar alterar uma tarefa de um outro usuário:
+
+Usuário:
+<p align="center">
+  <img alt="" src=".github/image11.png">
+</p>
+
+<p align="center">
+  <img alt="" src=".github/image12.png">
+</p>
+
 ## 🤔 Como contribuir
 
 - Faça um fork desse repositório;
