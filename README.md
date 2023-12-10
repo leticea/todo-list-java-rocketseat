@@ -172,6 +172,17 @@ Retorna:
 
 - **`PUT /tasks/{idTask}`**: Se tentar alterar uma tarefa de um outro usuário:
 
+Envia:
+
+```
+{
+  "title": "Mudando o título",
+  "priority": "Média"
+}
+```
+
+Retorna:
+
 ```
 Usuário não tem permissão para alterar essa tarefa
 ```
