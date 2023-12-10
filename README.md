@@ -39,9 +39,9 @@ Envia:
 
 ```
 {
-"name": "Leticia",
-"username": "leticea",
-"password": "12345"
+  "name": "Leticia",
+  "username": "leticea",
+  "password": "12345"
 }
 ```
 
@@ -49,11 +49,11 @@ Retorna:
 
 ```
 {
-"id": "a25c7b5e-20cc-4201-8b0d-a12e058e328d",
-"username": "leticea",
-"name": "Leticia",
-"password": "$2a$12$LVT1707COyuArcAeECE09.VXD1gPBnVnEoagRATYlO8uecA2mBLqi",
-"createdAt": "2023-12-10T13:38:22.993373723"
+  "id": "a25c7b5e-20cc-4201-8b0d-a12e058e328d",
+  "username": "leticea",
+  "name": "Leticia",
+  "password": "$2a$12$LVT1707COyuArcAeECE09.VXD1gPBnVnEoagRATYlO8uecA2mBLqi",
+  "createdAt": "2023-12-10T13:38:22.993373723"
 }
 ```
 
