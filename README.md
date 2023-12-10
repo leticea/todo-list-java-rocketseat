@@ -146,21 +146,35 @@ Retorna:
 
 - **`POST /tasks`**: Se não tiver criado um usuário e tentar criar uma tarefa:
 
-<p align="center">
-  <img alt="" src=".github/image10.png">
-</p>
+Envia:
+
+```
+{
+  "description": "Ir ao médico",
+  "title": "Tarefas",
+  "priority": "ALTA",
+  "startAt": "2023-12-15T11:30:00",
+  "endAt": "2023-12-15T12:30:00"
+}
+```
+
+Retorna:
+
+```
+{
+  "timestamp": "2023-12-10T16:53:12.605+00:00",
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "No message available",
+  "path": "/tasks/"
+}
+```
 
 - **`PUT /tasks/{idTask}`**: Se tentar alterar uma tarefa de um outro usuário:
 
-Usuário:
-
-<p align="center">
-  <img alt="" src=".github/image11.png">
-</p>
-
-<p align="center">
-  <img alt="" src=".github/image12.png">
-</p>
+```
+Usuário não tem permissão para alterar essa tarefa
+```
 
 ## 🤔 Como contribuir
 
