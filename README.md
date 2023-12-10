@@ -86,25 +86,37 @@ Retorna:
 }
 ```
 
-- **`GET /tasks`**: Rota para listar as tarefas do usuário logado (enviar os dados no corpo da requisição):
-
-Usuário:
-
-<p align="center">
-  <img alt="" src=".github/image3.png">
-</p>
+- **`GET /tasks`**: Rota para listar as tarefas do usuário logado (enviar os dados no corpo da requisição com o id do usuário):
 
 Envia:
 
-<p align="center">
-  <img alt="" src=".github/image6.png">
-</p>
+```
+{
+  "description": "Fazer exercício",
+  "title": "Gravação de aula",
+  "priority": "ALTA",
+  "startAt": "2023-12-15T22:30:00",
+  "endAt": "2023-12-15T21:08:00",
+  "idUser": "a25c7b5e-20cc-4201-8b0d-a12e058e328d"
+}
+```
 
 Retorna:
 
-<p align="center">
-  <img alt="" src=".github/image7.png">
-</p>
+```
+[
+  {
+    "id": "9f01512e-e23d-4f31-a3b9-cb5136e0f910",
+    "description": "Fazer exercício",
+    "title": "Tarefas",
+    "startAt": "2023-12-15T11:30:00",
+    "endAt": "2023-12-15T12:30:00",
+    "priority": "ALTA",
+    "idUser": "a25c7b5e-20cc-4201-8b0d-a12e058e328d",
+    "createdAt": "2023-12-10T13:43:23.041889"
+  }
+]
+```
 
 - **`PUT /tasks/{idTask}`**: Rota para atualizar uma tarefa do usuário logado:
 
