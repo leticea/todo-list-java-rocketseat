@@ -36,28 +36,39 @@ Evento do Curso de Java na plataforma da [Rocketseat](https://www.rocketseat.com
 - **`POST /users`**: Rota para criação de usuários:
 
 Envia:
-<p align="center">
-  <img alt="" src=".github/image.png">
-</p>
+
+{
+"name": "Leticia",
+"username": "leticea",
+"password": "12345"
+}
 
 Retorna:
-<p align="center">
-  <img alt="" src=".github/image2.png">
-</p>
+
+{
+"id": "a25c7b5e-20cc-4201-8b0d-a12e058e328d",
+"username": "leticea",
+"name": "Leticia",
+"password": "$2a$12$LVT1707COyuArcAeECE09.VXD1gPBnVnEoagRATYlO8uecA2mBLqi",
+"createdAt": "2023-12-10T13:38:22.993373723"
+}
 
 - **`POST /tasks`**: Rota para criar a tarefa com o usuário logado:
 
 Usuário:
+
 <p align="center">
   <img alt="" src=".github/image3.png">
 </p>
 
 Envia:
+
 <p align="center">
   <img alt="" src=".github/image4.png">
 </p>
 
 Retorna:
+
 <p align="center">
   <img alt="" src=".github/image5.png">
 </p>
@@ -65,16 +76,19 @@ Retorna:
 - **`GET /tasks`**: Rota para listar as tarefas do usuário logado (enviar os dados no corpo da requisição):
 
 Usuário:
+
 <p align="center">
   <img alt="" src=".github/image3.png">
 </p>
 
 Envia:
+
 <p align="center">
   <img alt="" src=".github/image6.png">
 </p>
 
 Retorna:
+
 <p align="center">
   <img alt="" src=".github/image7.png">
 </p>
@@ -82,11 +96,13 @@ Retorna:
 - **`PUT /tasks/{idTask}`**: Rota para atualizar uma tarefa do usuário logado:
 
 Envia:
+
 <p align="center">
   <img alt="" src=".github/image8.png">
 </p>
 
 Retorna:
+
 <p align="center">
   <img alt="" src=".github/image9.png">
 </p>
@@ -100,6 +116,7 @@ Retorna:
 - **`PUT /tasks/{idTask}`**: Se tentar alterar uma tarefa de um outro usuário:
 
 Usuário:
+
 <p align="center">
   <img alt="" src=".github/image11.png">
 </p>
