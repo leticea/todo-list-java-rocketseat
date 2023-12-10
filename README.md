@@ -59,23 +59,32 @@ Retorna:
 
 - **`POST /tasks`**: Rota para criar a tarefa com o usuário logado:
 
-Usuário:
-
-<p align="center">
-  <img alt="" src=".github/image3.png">
-</p>
-
 Envia:
 
-<p align="center">
-  <img alt="" src=".github/image4.png">
-</p>
+```
+{
+	"description": "Fazer exercício",
+	"title": "Tarefas",
+	"priority": "ALTA",
+	"startAt": "2023-12-15T11:30:00",
+	"endAt": "2023-12-15T12:30:00"
+}
+```
 
 Retorna:
 
-<p align="center">
-  <img alt="" src=".github/image5.png">
-</p>
+```
+{
+	"id": "9f01512e-e23d-4f31-a3b9-cb5136e0f910",
+	"description": "Fazer exercício",
+	"title": "Tarefas",
+	"startAt": "2023-12-15T11:30:00",
+	"endAt": "2023-12-15T12:30:00",
+	"priority": "ALTA",
+	"idUser": "a25c7b5e-20cc-4201-8b0d-a12e058e328d",
+	"createdAt": "2023-12-10T13:43:23.041888728"
+}
+```
 
 - **`GET /tasks`**: Rota para listar as tarefas do usuário logado (enviar os dados no corpo da requisição):
 
